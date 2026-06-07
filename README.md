@@ -9,5 +9,6 @@ I created this for Tampermonkey!
 ## Features
 This script places a CSS button next to your toyhouse notifications. When clicked while on a user's profile, character, or world, their CSS will be disabled on your browser. Clicking it again will turn it back on.
 
-## Known issues
+## Notes
 - If CSS is disabled for a page, there's a small delay between the page loading and the script running to turn the CSS off.
+- The button does not display for your own user profile. I assumed that wouldn't be necessary.
