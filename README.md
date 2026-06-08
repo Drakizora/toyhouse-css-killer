@@ -1,7 +1,7 @@
 # toyhouse-css-killer
 Turns off individual CSS pages on toyhouse while still keeping CSS visible elsewhere.
 
-I originally made a suggestion for this feature to be added to toyhouse officially, and then later realized I could code it myself with a user script. It's not seamless, but it get ths job done. If you'd like for toyhouse to make an official functionality to take its place, consider voicing your support on <a href = "https://toyhou.se/~forums/14.suggestions-bugs/784693.disable-custom-css-on-a-usercharacter-level>my thread</a>.
+I originally made a suggestion for this feature to be added to toyhouse officially, and then later realized I could code it myself with a user script. It's not seamless, but it get ths job done. If you'd like for toyhouse to make an official functionality to take its place, consider voicing your support on [my thread](https://toyhou.se/~forums/14.suggestions-bugs/784693.disable-custom-css-on-a-usercharacter-level).
 
 ## Installation
 I created this for Tampermonkey!
