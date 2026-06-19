@@ -14,3 +14,6 @@ This script places a CSS button next to your toyhouse notifications. When clicke
 ## Notes
 - If CSS is disabled for a page, there's a small delay between the page loading and the script running to turn the CSS off.
 - The button does not display for your own user profile. I assumed that wouldn't be necessary.
+
+## Demonstration
+![Video demonstrating the ability to turn CSS on and off with the script's injected button.](https://raw.githubusercontent.com/Drakizora/toyhouse-css-killer/refs/heads/main/demonstration.gif)
