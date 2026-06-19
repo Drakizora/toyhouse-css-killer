@@ -39,7 +39,7 @@
         // Creating button to control CSS
         cssButton.innerHTML = `<a id = "turnOffCSSButton" class="btn ${buttonType} tooltipster"`
             + `title="${buttonText}">`
-            + '<span class="far fa-file-css mr-0"></span></a>';
+            + '<span class="fas fa-file-css mr-0"></span></a>';
         cssButton.setAttribute('class', 'navbar-notifications mx-1');
 
         // Adding button to page
