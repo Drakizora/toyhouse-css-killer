@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         toyhouse css killer
-// @version      1.0.0
+// @version      1.0.1
 // @description  turn off toyhouse css
 // @author       Drakizora
 // @match        https://toyhou.se/*
@@ -114,10 +114,11 @@
         } else {
 
             try {
-                const report = document.getElementsByClassName("sidebar-li-report")[0].firstElementChild.pathname.split("/");
-                const values = report.slice(report.length - 2);
+                const report = document.getElementsByClassName("sidebar-li-report")[0].firstElementChild.search.substring(1).split("&");
+                const type = report[0].split("=")[1];
+                const id = report[1].split("=")[1];
 
-                return { "type" : values[0], "id" : values[1] };
+                return { "type" : type, "id" : id };
             } catch {
                 // id could not be found
                 return { "type" : "N/A", "id" : -1 };
