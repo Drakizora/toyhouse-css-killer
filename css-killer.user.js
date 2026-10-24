@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         toyhouse css killer
-// @version      1.0.1
+// @version      1.0.2
 // @description  turn off toyhouse css
 // @author       Drakizora
 // @match        https://toyhou.se/*
@@ -41,6 +41,7 @@
             + `title="${buttonText}">`
             + '<span class="fas fa-file-css mr-0"></span></a>';
         cssButton.setAttribute('class', 'navbar-notifications mx-1');
+        cssButton.setAttribute('style', 'display:flex !important');
 
         // Adding button to page
         waitForKeyElements(".navbar-nav", createButton, true);
